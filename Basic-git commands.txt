@@ -1,0 +1,31 @@
+1. version --> git --version
+2. change directory  --> cd
+3. ls --> listing all the folders in the directory
+4. git init --> to make file as git
+5. pwd--> current directory
+6. status -->  to see any changes
+7. git diff filename--> to see what changes are done
+8. git add filename--> to add the new changes in the git file
+9. git commit --> to make a lock on the new changes
+  git commit -m "message"     note: git commit will not work until git add is not used i.e. if the changes are ot added in stagged area only after git add it will be added
+  
+10. git log: to see who have worked on the branch earlier
+11. git log -5 : to see the last 5 person to use that branch
+12. git branch: to show the various branches
+13. git checkout -b branchname: to make a new branch other than the main branch
+    git branch branchname--to make new branch
+14. git branch -d branchname: to del the name of the branch
+15. to switch between the branches we have to use the git checkout branchname
+    to checkout from that branch before deleting that branch
+16. git merge branchname: to merge the file in main
+17. git reset --hard HEAD: to delete the latest commit (a type of undo) and no code changes.
+18. git reset --soft commitid: see the code change and also the code changes can be seen
+19. git pull: to sink the commit history of all the people working on same project which is shown in log
+20. git push: to merge the code with local and remote computers
+21. git restore --staged index.html: to bring back the last changes we have done
+22. git commit --amend: to make lock the changes without adding new commit.
+23 if the layout changes after any command: press i and write intial commit(this is message)
+   and press WQ
+24 to create a new file write : touch filename
+25 to add more than one file in staging area : git add -A
+26 git rm --cached filename: to remove the file from stagging area after a commit
