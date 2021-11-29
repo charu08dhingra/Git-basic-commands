@@ -29,3 +29,4 @@
 24 to create a new file write : touch filename
 25 to add more than one file in staging area : git add -A
 26 git rm --cached filename: to remove the file from stagging area after a commit
+***After going through these basic commands you will able to use git very easily*****
